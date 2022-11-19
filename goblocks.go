@@ -73,8 +73,6 @@ func setStyle(style string) []string {
 		updateMem(),
 		briefStyle + volColor + "^",
 		updateVolume(),
-		briefStyle + batColor + "^",
-		updateBattery(),
 		briefStyle + datColor + "^",
 		updateDateTime(),
 	}
